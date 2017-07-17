@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DAA561231F191A28004FE8A9 /* SecretViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA561221F191A28004FE8A9 /* SecretViewController.swift */; };
 		DAB700C91F19115200984BAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB700C81F19115200984BAC /* AppDelegate.swift */; };
 		DAB700CB1F19115200984BAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB700CA1F19115200984BAC /* ViewController.swift */; };
 		DAB700CE1F19115200984BAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB700CC1F19115200984BAC /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DAA561221F191A28004FE8A9 /* SecretViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecretViewController.swift; sourceTree = "<group>"; };
 		DAB700C51F19115200984BAC /* ClickCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClickCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB700C81F19115200984BAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAB700CA1F19115200984BAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				DAB700C81F19115200984BAC /* AppDelegate.swift */,
 				DAB700CA1F19115200984BAC /* ViewController.swift */,
+				DAA561221F191A28004FE8A9 /* SecretViewController.swift */,
 				DAB700CC1F19115200984BAC /* Main.storyboard */,
 				DAB700D21F19115200984BAC /* Assets.xcassets */,
 				DAB700D41F19115200984BAC /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			files = (
 				DAB700CB1F19115200984BAC /* ViewController.swift in Sources */,
 				DAB700D11F19115200984BAC /* ClickCounter.xcdatamodeld in Sources */,
+				DAA561231F191A28004FE8A9 /* SecretViewController.swift in Sources */,
 				DAB700C91F19115200984BAC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,6 +307,7 @@
 				DAB700DC1F19115200984BAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -63,8 +63,7 @@
                                                     <color key="titleColor" red="0.99678617715835571" green="0.99205011129379272" blue="0.9919629693031311" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="GoToSecretView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lU8-PJ-4yG"/>
-                                                    <segue destination="rss-5K-9RJ" kind="show" id="DTl-HE-KmF"/>
+                                                    <action selector="SecretButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="44T-8Z-HQJ"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -82,6 +81,7 @@
                     </view>
                     <connections>
                         <outlet property="Counter" destination="aFL-lB-GAr" id="SII-Mf-NlG"/>
+                        <segue destination="rss-5K-9RJ" kind="show" identifier="GoToSecretView" id="4Vw-xQ-Ny7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -147,7 +147,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cvj-uJ-jSN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="914" y="137"/>
+            <point key="canvasLocation" x="911" y="53"/>
         </scene>
     </scenes>
 </document>
