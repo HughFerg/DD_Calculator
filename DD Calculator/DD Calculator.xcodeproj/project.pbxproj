@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA777F571F27C9FD001D161B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA777F561F27C9FD001D161B /* ViewController.swift */; };
 		DA7C8BE41F0308B8006D7B92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7C8BE31F0308B8006D7B92 /* AppDelegate.swift */; };
-		DA7C8BE61F0308B8006D7B92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7C8BE51F0308B8006D7B92 /* ViewController.swift */; };
 		DA7C8BE91F0308B8006D7B92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA7C8BE71F0308B8006D7B92 /* Main.storyboard */; };
 		DA7C8BEC1F0308B8006D7B92 /* DD_Calculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA7C8BEA1F0308B8006D7B92 /* DD_Calculator.xcdatamodeld */; };
 		DA7C8BEE1F0308B8006D7B92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA7C8BED1F0308B8006D7B92 /* Assets.xcassets */; };
@@ -16,9 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA777F561F27C9FD001D161B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DA7C8BE01F0308B8006D7B92 /* DD Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DD Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA7C8BE31F0308B8006D7B92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DA7C8BE51F0308B8006D7B92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DA7C8BE81F0308B8006D7B92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA7C8BEB1F0308B8006D7B92 /* DD_Calculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DD_Calculator.xcdatamodel; sourceTree = "<group>"; };
 		DA7C8BED1F0308B8006D7B92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,8 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				DA7C8BE31F0308B8006D7B92 /* AppDelegate.swift */,
-				DA7C8BE51F0308B8006D7B92 /* ViewController.swift */,
 				DA7C8BE71F0308B8006D7B92 /* Main.storyboard */,
+				DA777F561F27C9FD001D161B /* ViewController.swift */,
 				DA7C8BED1F0308B8006D7B92 /* Assets.xcassets */,
 				DA7C8BEF1F0308B8006D7B92 /* LaunchScreen.storyboard */,
 				DA7C8BF21F0308B8006D7B92 /* Info.plist */,
@@ -139,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA7C8BE61F0308B8006D7B92 /* ViewController.swift in Sources */,
+				DA777F571F27C9FD001D161B /* ViewController.swift in Sources */,
 				DA7C8BE41F0308B8006D7B92 /* AppDelegate.swift in Sources */,
 				DA7C8BEC1F0308B8006D7B92 /* DD_Calculator.xcdatamodeld in Sources */,
 			);
@@ -265,6 +265,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "DD Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.HughFerguson.DD-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -277,6 +278,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "DD Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.HughFerguson.DD-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -303,6 +305,7 @@
 				DA7C8BF71F0308B8006D7B92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
