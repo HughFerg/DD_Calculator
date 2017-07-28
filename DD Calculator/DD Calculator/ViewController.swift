@@ -14,13 +14,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var playerTextLabel: UILabel!
     
     var playerList = [String]()
+    var testNum = 9
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         if (playerList.count == 0){
             
-            playerTextLabel.text = "No Players yet!"
+            playerTextLabel.text = "No players yet!"
         }
         // Do any additional setup after loading the view.
     }
@@ -55,6 +56,7 @@ class ViewController: UIViewController {
         }
         
         else {
+            
             let emptyPlayerAlert = UIAlertController(title: "Error!", message: "Cannot add an empty player", preferredStyle: UIAlertControllerStyle.alert)
             
             let closeAction = UIAlertAction(title: "Close", style: .default, handler: nil)
@@ -68,6 +70,28 @@ class ViewController: UIViewController {
     
 
     @IBAction func doneAdding(_ sender: Any) {
+        
+        let myVC = storyboard?.instantiateViewController(withIdentifier: "ChoosePlayerView") as! ChoosePlayerViewController
+        
+        for a in (0...playerList.count - 1){
+            
+        myVC.playerListPassed.append(playerList[a])
+        }
+        
+        // myVC.testNumPassed = testNum
+        
+        navigationController?.pushViewController(myVC, animated: true)
+        
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if segue.identifier == "ChoosePlayerView"{
+            
+            if let viewController = segue.destination as? ChoosePlayerViewController {
+                viewController.testNumPassed = testNum
+            }
+        }
     }
     /*
     // MARK: - Navigation
@@ -78,5 +102,4 @@ class ViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA3A110E1F2A962900B8F222 /* ChoosePlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3A110D1F2A962900B8F222 /* ChoosePlayerViewController.swift */; };
 		DA777F571F27C9FD001D161B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA777F561F27C9FD001D161B /* ViewController.swift */; };
 		DA7C8BE41F0308B8006D7B92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7C8BE31F0308B8006D7B92 /* AppDelegate.swift */; };
 		DA7C8BE91F0308B8006D7B92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA7C8BE71F0308B8006D7B92 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA3A110D1F2A962900B8F222 /* ChoosePlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoosePlayerViewController.swift; sourceTree = "<group>"; };
 		DA777F561F27C9FD001D161B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DA7C8BE01F0308B8006D7B92 /* DD Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DD Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA7C8BE31F0308B8006D7B92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				DA7C8BE31F0308B8006D7B92 /* AppDelegate.swift */,
 				DA7C8BE71F0308B8006D7B92 /* Main.storyboard */,
+				DA3A110D1F2A962900B8F222 /* ChoosePlayerViewController.swift */,
 				DA777F561F27C9FD001D161B /* ViewController.swift */,
 				DA7C8BED1F0308B8006D7B92 /* Assets.xcassets */,
 				DA7C8BEF1F0308B8006D7B92 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA3A110E1F2A962900B8F222 /* ChoosePlayerViewController.swift in Sources */,
 				DA777F571F27C9FD001D161B /* ViewController.swift in Sources */,
 				DA7C8BE41F0308B8006D7B92 /* AppDelegate.swift in Sources */,
 				DA7C8BEC1F0308B8006D7B92 /* DD_Calculator.xcdatamodeld in Sources */,
