@@ -14,7 +14,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var playerTextLabel: UILabel!
     
     var playerList = [String]()
-    var testNum = 9
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -86,13 +85,12 @@ class ViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
-        if segue.identifier == "ChoosePlayerView"{
-            
-            if let viewController = segue.destination as? ChoosePlayerViewController {
-                viewController.testNumPassed = testNum
-            }
-        }
+        var choosePlayerView = segue.destination as! ChoosePlayerViewController
+        
+        choosePlayerView.playerListPassed = playerList
+        
     }
+    
     /*
     // MARK: - Navigation
 

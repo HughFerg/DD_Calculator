@@ -13,16 +13,34 @@ class ChoosePlayerViewController: UIViewController {
     @IBOutlet weak var playerNameLabel: UILabel!
     
     var playerListPassed = [String]()
-    var testNumPassed = Int()
 
     override func viewDidLoad() {
         
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+    
+        var playerString: String = ""
         
-        playerNameLabel.text = String(describing: playerListPassed)
+        if playerListPassed.count > 1 {
+            
+            let arraySize = UInt32(playerListPassed.count)
+            
+            let randomIndex = Int(arc4random_uniform(arraySize))
+            playerString = playerListPassed[randomIndex]
+            
+            print(arraySize)
+            print(randomIndex)
+            
+        }
         
-        print (testNumPassed)
+        else {
+            
+            playerString = playerListPassed[0]
+            
+        }
+        
+        playerNameLabel.text = playerString
+        
     }
 
     override func didReceiveMemoryWarning() {
